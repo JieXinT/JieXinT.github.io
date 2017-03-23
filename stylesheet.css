@@ -1,6 +1,25 @@
-h1 {
-	padding: 50px;
-}
-p {
-	color: red;
-}
+/*Parallax scrolling*/
+  <style>
+    .parallax { 
+    /* The image used */
+    background-image: url("lilypond.jpg");
+
+    /* Height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+  </style>
+
+  /* Turn off parallax scrolling for tablets and phones. */
+   @media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+
+    
