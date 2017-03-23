@@ -1,5 +1,25 @@
+/*Heading style*/
+.h1 {
+  color: white;
+  padding: 50px;
+}
+.header .text-center{
+  padding-top: 100px;
+}
+.header .text-center strong{
+  border: solid;
+  border-color: white;
+  border-width: 3px;
+  padding: 10px;
+  color:white;
+  font-size:larger;
+  background-color: rgba(0,0,0, .5);
+}
+
+
+
+
 /*Parallax scrolling*/
-  <style>
     .parallax { 
     /* The image used */
     background-image: url("lilypond.jpg");
@@ -14,7 +34,6 @@
     background-size: cover;
     }
 
-  </style>
 
   /* Turn off parallax scrolling for tablets and phones. */
    @media only screen and (max-device-width: 1024px) {
